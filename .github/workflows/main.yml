@@ -22,7 +22,7 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags:
+          tags: |
             lcds0807/rotten-potatoes:latest
             lcds0807/rotten-potatoes:${{ github.run_number }}
             
