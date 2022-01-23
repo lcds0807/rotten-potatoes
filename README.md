@@ -1,5 +1,6 @@
 # rotten-potatoes
-#configuração
+# configuração
+
 MONGODB_DB => Nome do database
 
 MONGODB_HOST => Host do MongoDB
