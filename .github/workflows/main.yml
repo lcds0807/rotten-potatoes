@@ -26,6 +26,7 @@ jobs:
             lcds0807/rotten-potatoes:latest
             lcds0807/rotten-potatoes:${{ github.run_number }}
   CD:
+    needs: [CI]
     runs-on: ubuntu-latest
     
     steps:
